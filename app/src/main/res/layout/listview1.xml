@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+<ImageView
+    android:id="@+id/man1"
+    android:src="@mipmap/ic_launcher"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/text1"
+        android:text="联系人１"
+        android:layout_toRightOf="@id/man1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+<ImageView
+    android:id="@+id/man2"
+    android:src="@mipmap/ic_launcher"
+    android:layout_alignParentRight="true"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+<TextView
+    android:text="联系人２"
+    android:layout_toLeftOf="@id/man2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+</RelativeLayout>
