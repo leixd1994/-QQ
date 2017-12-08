@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
         LinearLayoutManager linearLayoutManager=new LinearLayoutManager(this);
        // linearLayoutManager.setOrientation(LinearLayoutManager.HORIZONTAL);
         mylist.setLayoutManager(linearLayoutManager);
-       final  myRecyViewAdapter temp=new myRecyViewAdapter(3);
+        final  myRecyViewAdapter temp=new myRecyViewAdapter(3);
         mylist.setAdapter(temp);
 
         BottomNavigationView navigation = (BottomNavigationView) findViewById(R.id.navigation);

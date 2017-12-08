@@ -5,6 +5,9 @@ package com.example.leixd.freeqq;
  */
 
 public class ServerInfo {
-    static String serverIP=":8888";
+
+    static public String serverRegisterIP ="http://10.42.0.1:5000/register";
+    static public String serverLoginIP ="http://10.42.0.1:5000/login";
+
 
 }
